@@ -45,8 +45,7 @@ function App() {
           <span>Add</span>
         </button>
       </div>
-
-      {items.map(list_creator)}
+      <ul>{items.map(list_creator)}</ul>
     </div>
   );
 }
